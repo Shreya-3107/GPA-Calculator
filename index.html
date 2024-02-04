@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GPA Calculator</title>
+</head>
+<body>
+    <div class="main_box">
+        <div class="header">
+            <h1>GPA Calculator</h1>
+        </div>
+        <div class="content_box">
+            <div class="input_field">
+                <table id="myTable">
+                    <tr>
+                        <th>S.no</th>
+                        <th>Subject</th>
+                        <th>Credits</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" id="value1c1" class="sub" placeholder="Eg: Data structures"></td>
+                        <td><input type="number" id="value1c2" class="cred" placeholder="Eg: 3"></td>
+                        <td><input type="text" id="value1c3" class="grade" placeholder="Eg: A+"></td>
+                    </tr>
+                </table>
+                <button onclick="createNewRow()">Add new</button>
+                <button onclick="deleteLastRow()">Delete last</button>
+                <button onclick="calculate()">Calculate</button>
+            </div>
+            <div class="output_field">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
