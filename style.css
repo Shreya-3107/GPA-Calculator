@@ -43,6 +43,10 @@ input{
     padding: 5px;
     border-radius: 5px;
 }
+.buttonnn:hover{
+    background-color: var(--primary);
+    color: aliceblue;
+}
 .output_field{
     margin: 10px;
     width: 400px;
