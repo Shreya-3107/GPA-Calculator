@@ -68,8 +68,9 @@ function calculate() {
     var gpa = tot_credit_score / tot_credit;
 
     var op = document.querySelector(".output_field");
+    var d = document.getElementById("disp");
 
-    op.innerHTML = "GPA: " + gpa.toFixed(2);
+    d.innerHTML = gpa.toFixed(2);
 }
 
 
